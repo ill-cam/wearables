@@ -1,5 +1,5 @@
 ###############################################################
-Code Book for combined.dat and tidy_summary.dat files
+README for "combined.txt"" and "tidy_summary.txt"" files
 ###############################################################
 Created by: ill-cam
 ###############################################################
@@ -77,9 +77,9 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 ###############################################################
 
-Creation of the "combined.csv"" file
+Creation of the "combined.txt"" file
 
-The steps for creating the "combined.csv" file from the components of the UCI HAR zip file can be reenacted with the "run_analysis.R" script. The main steps are as follows:
+The steps for creating the "combined.txt" file from the components of the UCI HAR zip file can be reenacted with the "run_analysis.R" script. The main steps are as follows:
 
 1. Unzip the UCI HAR files and create separate tables for the "test" and "train"
    group observations, subject values, and activity values, plus the activity and
@@ -94,9 +94,9 @@ The steps for creating the "combined.csv" file from the components of the UCI HA
 
 ###############################################################
 
-Creation of the "tidy_summary.csv"" file
+Creation of the "tidy_summary.txt"" file
 
-vThe steps for creating the "tidy_summary.csv" file from the "combined.csv" file can be reenacted with the "run_analysis.R" script. The main steps are as follows:
+vThe steps for creating the "tidy_summary.txt" file from the "combined.txt" file can be reenacted with the "run_analysis.R" script. The main steps are as follows:
 
 1. Start with the "combined" data set created using the steps outlined above.
 2. Load the dplyr package.

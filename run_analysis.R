@@ -33,8 +33,8 @@ mean_std_colnums <- grep("mean|std",data_labels$V2,fixed = FALSE);
 mean_std_cols <- measures[,mean_std_colnums];
 combined <- cbind(subject, activity2, mean_std_cols);
 
-#Write the new combined data table to a csv file for potential later use
-write.csv(combined, "combined.csv", row.names = FALSE);
+#Write the new combined data table to a txt file for potential later use
+write.table(combined, "combined.txt", row.names = FALSE);
 
 #Create a summary table from the new combined data file with mean and standard
 #deviation values grouped by subject and activity
@@ -48,4 +48,4 @@ tidy_summary <- tidy_summary %>%
   rename(subject = Group.1, activity = Group.2);
 
 #Write the new summary table to a csv file for potential later use
-write.csv(tidy_summary, "tidy_summary.csv", row.names = FALSE)
+write.table(tidy_summary, "tidy_summary.txt", row.names = FALSE)

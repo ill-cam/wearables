@@ -1,5 +1,5 @@
 ###############################################################
-Code Book for combined.csv and tidy_summary.csv files
+Code Book for "combined.txt"" and "tidy_summary.txt"" files
 ###############################################################
 Created by: ill-cam
 ###############################################################
@@ -25,9 +25,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 The zip file size is 59.7 MB
 ###############################################################
 
-The "combined.csv"" file
+The "combined.txt"" file
 
-Size is 53.4 KB
+Size is 9.4 MB
 
 This file combines the data from the following six files into one table that includes all measurement data for all 30 participants in the study.
 
@@ -97,7 +97,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The values are normalized and bounded within [-1,1].
 
-The set of variables that were estimated from these signals and included in the "combined.csv" file are: 
+The set of variables that were estimated from these signals and included in the "combined.txt" file are: 
 
 *mean(): Mean value
 *std(): Standard deviation
@@ -107,13 +107,13 @@ The complete list of variables of each feature vector is available in "features.
 
 ###############################################################
 
-The "tidy_summary.csv"" file
+The "tidy_summary.txt"" file
 
 Size is 53.4 KB
 
 The data table has 35 rows and 81 columns.
 
-This table takes the data in the "combined.csv" file and summarizes the average value of each measure by subject and activity.
+This table takes the data in the "combined.txt" file and summarizes the average value of each measure by subject and activity.
 
 There are 35 rows because there are 35 unique combinations of a subject and activity. 
 
